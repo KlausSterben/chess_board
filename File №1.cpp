@@ -3,13 +3,13 @@ using namespace std;
 
 int main()
 {
-    int h, a, w;
-    cout << "Enter the height of the chessboard.\nh = "; //Вводим высоту шахматной доски
-    cin >> h;
-    cout << "Enter the width of the chessboard.\nw = "; //Вводим ширину шахматной доски
-    cin >> w;
-    cout << "Enter the size of the chessboard cell.\na = "; //Вводим величину ячейки шахматной доски
+    int a, b, c;
+    cout << "Enter the height of the chessboard.\na = "; //Вводим высоту шахматной доски
     cin >> a;
+    cout << "Enter the width of the chessboard.\nb = "; //Вводим ширину шахматной доски
+    cin >> b;
+    cout << "Enter the size of the chessboard cell.\nc = "; //Вводим величину ячейки шахматной доски
+    cin >> c;
 
   return 0;
 }
